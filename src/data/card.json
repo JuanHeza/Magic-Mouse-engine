@@ -1,0 +1,42 @@
+{
+    "id": "crd_d9f3b86af85f48579ed9d0d7ce0de129",
+    "name": "Ariel",
+    "version": "On Human Legs",
+    "layout": "normal",
+    "image_uris": {
+      "digital": {
+        "small": "https://cards.lorcast.io/card/digital/small/crd_d9f3b86af85f48579ed9d0d7ce0de129.avif?1709690747",
+        "normal": "https://cards.lorcast.io/card/digital/normal/crd_d9f3b86af85f48579ed9d0d7ce0de129.avif?1709690747",
+        "large": "https://cards.lorcast.io/card/digital/large/crd_d9f3b86af85f48579ed9d0d7ce0de129.avif?1709690747"
+      }
+    },
+    "cost": 4,
+    "inkwell": true,
+    "ink": "Amber",
+    "inks": null,
+    "type": ["Character"],
+    "classifications": [
+      "Storyborn",
+      "Hero",
+      "Princess"
+    ],
+    "text": "VOICELESS This character can't {E} to sing songs.",
+    "keywords": [],
+    "move_cost": null,
+    "strength": 3,
+    "willpower": 4,
+    "lore": 2,
+    "rarity": "Uncommon",
+    "illustrators": ["Matthew Robert Davies"],
+    "collector_number": "1",
+    "lang": "en",
+    "flavor_text": "\"...\"",
+    "legalities": {
+      "core": "legal"
+    },
+    "set": {
+      "id": "set_7ecb0e0c71af496a9e0110e23824e0a5",
+      "code": "1",
+      "name": "The First Chapter"
+    }
+  }

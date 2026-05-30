@@ -1,0 +1,8 @@
+dbTemplates:
+  getCard: "select * from template where id = $1"
+  getAllCards: "select * from template"
+  getTemplatesByKeyword: "select * from template where name ilike '%' || $1 || '%'"
+  getCardBySet: "select * from template where set_id = $1"
+  deleteCard: "delete from template where id = $1"
+  updateCard: "update template set description = $2 where id = $1"
+  insertCard: "insert into template (description) values ($1)"
