@@ -3,21 +3,13 @@ logging:
     level: trace # trace, debug, info, warn, error
     # env LOGGING_SINK
     sink: stderr # stderr, file, TODO
-
-vault: # VAULT configuration
-    secretsKV: "/vault/secrets/kon-integration-digitalreceipt-app-secrets"
-
 server: # Server configuration
     # env SERVER_LISTEN_ADDRESS 
     listenAddress: "https://0.0.0.0:8080" # Eg. http://{ip}:{port}, https://{ip}:{port}, {ip} 0.0.0.0 for all interfaces
     # env SERVER_INGRESS_CIDR
     ingressCIDR:
         - 0.0.0.0/0
-imageformat : png
-
-logodir: run/logo
-font : run/font/opensans.ttf
-rootca :  cacert/nonprod
+        
 db: # Database
     #env DB_SERVER
     server: "localhost"
@@ -33,14 +25,3 @@ db: # Database
     initConnectLimitLog: 5
     # env DB_INIT_CONNECT_SLEEP
     initConnectSleep: 1s
-    # env DB_SQL_RECONNECT_ON_ERRORS
-    sqlReconnectOnErrors:
-        - "08000"
-        - "08006"
-        - "57P03"
-poscfg :
-  url : https://dev.kon.heb.com.mx/kon-supporting-configurationmanager/api/v1/readconfig
-printer :
-  helperscript : bin/printer-helper.sh
-  configname : kds
-  pgmgroup: RES
